@@ -14,7 +14,7 @@
 
 // wifi details
 const char* ssid = "OPPO A92";
-const char* password = "cs3237boyd";
+const char* password = "cs3237";
 ,
 // MQTT details
 WiFiClient wifiClient;
