@@ -12,4 +12,5 @@ light sleep mode is excluded for enhanced readability
 
 ## architecture diagrams 
 diagrams showing pin mappings exactly  
+
 note: board name is supposed to be wemos D1 as opposed to arduino uno board shown
