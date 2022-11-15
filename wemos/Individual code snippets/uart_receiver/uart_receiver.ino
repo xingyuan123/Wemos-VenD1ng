@@ -18,18 +18,13 @@ if(Serial.available()>0){
    int codeInt = String(code).toInt();
     switch(codeInt){
           case 2:
-            //dispense snack 1
-            //dispenseSnack(1);
+
                 digitalWrite(D7,HIGH);
                 delay(1000);
                 digitalWrite(D7,LOW);
                 
             break; 
-//   if (String(code) == "2"){
-//    
-//    digitalWrite(D7,HIGH);
-//    delay(1000);
-//    digitalWrite(D7,LOW);
+
  }
 }
 
