@@ -2,6 +2,9 @@
 
 ## Folder for machine learning
 
+Link to dataset and CNN model due to size limit: 
+https://drive.google.com/drive/folders/1eyKokf8gwZRiWCLcL1tY5YjQROFYJwsi
+
 ### dataset
 Folder containing coin images used in model training and validation.
 
