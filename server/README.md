@@ -1,3 +1,4 @@
 # Wemos-VenD1ng
 
-## Folder for server
+## server
+removed client for security purposes
