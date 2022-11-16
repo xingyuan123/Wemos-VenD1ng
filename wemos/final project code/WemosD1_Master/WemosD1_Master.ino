@@ -1,7 +1,7 @@
 /*
  * Written by chuan an and xing yuan
  * 
- * wemos and server written by mayank
+ * wemos and server integration part written by mayank
  * 
  * final code for master of vending machine
  */
