@@ -46,8 +46,10 @@ void callback() {
 void loop() {
   Serial.println("Enter light sleep mode");
  
+  //GPIO wake up
   gpio_pin_wakeup_enable(GPIO_ID_PIN(LIGHT_WAKE_PIN), GPIO_PIN_INTR_LOLEVEL);
   wifi_set_opmode(NULL_MODE);
+  //sleep mode
   wifi_fpm_set_sleep_type(LIGHT_SLEEP_T);
   wifi_fpm_open();
   wifi_fpm_set_wakeup_cb(callback);
