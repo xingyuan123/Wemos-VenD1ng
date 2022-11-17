@@ -64,7 +64,7 @@ void loop() {
   Serial.println("Exit light sleep mode");
  //here 
   wifi_set_sleep_type(NONE_SLEEP_T);
-  delay(1000);  //  Put the esp to sleep for 15s
+  delay(1000);  //  Put the esp to sleep 
 
 
 }
