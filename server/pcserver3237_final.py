@@ -232,8 +232,8 @@ def classify_coin(cnn, knn, rf):
     print("Done")
     #print(classes[win])
     #return classes[win]
-    #result = weighted_voting(class_cnn, class_knn, class_rf)
-    return class_cnn
+    result = weighted_voting(class_cnn, class_knn, class_rf)
+    return result
 
 
 def weighted_voting(cnn_pred,knn_pred,rf_pred):
