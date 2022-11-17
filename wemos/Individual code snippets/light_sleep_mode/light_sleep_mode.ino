@@ -54,12 +54,13 @@ void loop() {
   wifi_fpm_do_sleep(FPM_SLEEP_MAX_TIME);
   delay(1000);
 
-  //insert code between here to  
+  //insert code between here and
   if(startTriggered == true){
     Serial.println("pressed");
     startTriggered = false;
   }
   Serial.println("Exit light sleep mode");
+ //here 
   wifi_set_sleep_type(NONE_SLEEP_T);
   delay(1000);  //  Put the esp to sleep for 15s
 
