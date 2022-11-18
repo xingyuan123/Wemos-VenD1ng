@@ -1,7 +1,8 @@
 # Wemos-VenD1ng
+data collected by jun heng, chuan an and xing yuan  
+machine learning models written by chuan an, xing yuan 
 
 ## Folder for machine learning
-
 Link to dataset and CNN model due to size limit: 
 https://drive.google.com/drive/folders/1eyKokf8gwZRiWCLcL1tY5YjQROFYJwsi
 
@@ -32,4 +33,6 @@ Convolutional Neural Network model. Test accuracy: 88.3%, loss: 0.47
 KNN model. Test accuracy: 93.5%. Train accuracy: 96.9%
 
 ### rf.pkl
+<<<<<<< HEAD
 Random Forest model. Test accuracy: 89.6%
+

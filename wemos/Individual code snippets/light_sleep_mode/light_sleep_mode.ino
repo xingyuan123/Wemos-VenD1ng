@@ -46,22 +46,25 @@ void callback() {
 void loop() {
   Serial.println("Enter light sleep mode");
  
+  //GPIO wake up
   gpio_pin_wakeup_enable(GPIO_ID_PIN(LIGHT_WAKE_PIN), GPIO_PIN_INTR_LOLEVEL);
   wifi_set_opmode(NULL_MODE);
+  //sleep mode
   wifi_fpm_set_sleep_type(LIGHT_SLEEP_T);
   wifi_fpm_open();
   wifi_fpm_set_wakeup_cb(callback);
   wifi_fpm_do_sleep(FPM_SLEEP_MAX_TIME);
   delay(1000);
 
-  //insert code between here to  
+  //insert code between here and
   if(startTriggered == true){
     Serial.println("pressed");
     startTriggered = false;
   }
   Serial.println("Exit light sleep mode");
+ //here 
   wifi_set_sleep_type(NONE_SLEEP_T);
-  delay(1000);  //  Put the esp to sleep for 15s
+  delay(1000);  //  Put the esp to sleep 
 
 
 }
