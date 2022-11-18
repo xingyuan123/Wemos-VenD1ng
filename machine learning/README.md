@@ -29,7 +29,7 @@ Code for training of RF model.
 Convolutional Neural Network model. Test accuracy: 88.3%, loss: 0.47
 
 ### knn_hough.pkl
-KNN model. Test accuracy: 94.8%
+KNN model. Test accuracy: 93.5%. Train accuracy: 96.9%
 
 ### rf.pkl
-Random Forest mpdel. Test accuracy: 89.6%
+Random Forest model. Test accuracy: 89.6%
