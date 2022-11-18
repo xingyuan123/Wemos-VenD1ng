@@ -3,5 +3,7 @@
 ## telegram bot 
 accessible via https://t.me/wemosvendingbot  
 
-removed TOKEN and client for security purposes
+Frontend for owner and users. No additional installation or account creation required.
+
+Removed TOKEN and client for security purposes
 

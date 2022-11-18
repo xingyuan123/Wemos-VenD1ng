@@ -4,7 +4,8 @@ machine learning models written by chuan an, xing yuan
 
 ## Folder for machine learning
 Link to dataset and CNN model due to size limit: 
-https://drive.google.com/drive/folders/1eyKokf8gwZRiWCLcL1tY5YjQROFYJwsi
+CNN model: https://drive.google.com/drive/folders/1C0bOsZ0EkWXyLXLRA44dv00ZO2AriWii
+Dataset: https://drive.google.com/drive/folders/1-QEtSv9Y_mRYQq9B9UQdSs1ABG4Amc89
 
 ### dataset
 Folder containing coin images used in model training and validation.
@@ -30,7 +31,9 @@ Code for training of RF model.
 Convolutional Neural Network model. Test accuracy: 88.3%, loss: 0.47
 
 ### knn_hough.pkl
-KNN model. Test accuracy: 94.8%
+KNN model. Test accuracy: 93.5%. Train accuracy: 96.9%
 
 ### rf.pkl
-Random Forest mpdel. Test accuracy: 89.6%
+<<<<<<< HEAD
+Random Forest model. Test accuracy: 89.6%
+
